@@ -28,6 +28,12 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 480px) {
+  body {
+    width: 480px;
+    height: 100vh;
+  }
+}
 #image-track {
   display: flex;
   gap: 4vmin;
